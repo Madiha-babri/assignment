@@ -1,0 +1,30 @@
+.navbar {
+    position:absolute;
+    top: 0;
+    margin-bottom: 0;
+    width: 100%;
+    background-color: #5A9DE0;
+    color: #403278;
+    opacity: .8;
+    z-index: 2;
+}
+
+.navbar .navbar-toggler {
+  
+    position: relative;
+    border: 10px; 
+    z-index: 1;
+}
+.navbar .navbar-brand {
+    color: #403278;
+    font-family: 'Fira+Mono',sans-serif;
+    font-weight: 700;
+}
+
+.navbar .navbar-nav a {
+    color: #5f7dae;
+    font-family: 'Fira+Mono',sans-serif;
+    font-weight: 700;
+    color: #5f7dae;
+    z-index: 3;
+}
