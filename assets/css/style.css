@@ -62,7 +62,7 @@ h5 {
 }
 
 
-/*---------------------------------------------------------------Hero---- */
+/*-- Hero, Jumbotron-- */
 .hero-container {
     height: 900px;
     background: url("../images/earth.jpg") no-repeat center center/cover;
@@ -93,3 +93,6 @@ h5 {
     font-family: "Roboto", sans-serif;
     font-weight: 550;
 }
+
+/*-- video --*/
+
