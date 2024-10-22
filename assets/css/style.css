@@ -9,10 +9,7 @@
 
 /*-- General styles --*/
 body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    font-family: "Roboto", sans-serif;
+    background-color: rgba(0, 217, 255, 0.7);
 }
 
 h1,
@@ -97,10 +94,24 @@ h5 {
     font-weight: 550;
 }
 
-/*-- video --*/
+/*-- video --*/ 
 
+
+
+
+
+
+/*-- Actions --*/
+#action-container {
+
+    background: url("../images/earthways.jpg") no-repeat center/cover;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+   
+}
 .action-container {
-    background: url("../css/images/earthways.jpg");
+    
     height: 500px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -112,4 +123,70 @@ h5 {
     position: relative;
   
   }
-  
+  .list-group-item 
+  {
+    background-color: rgba(87, 243, 248, 0.774);
+    color: rgba(24, 13, 21, 0.89);
+    flex-grow: 1;
+    font-weight: 600;
+    font-size: large;
+   
+  }
+ 
+
+  /*-- features --*/
+
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.feature {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #f05f40;
+ text-align: center;
+    margin-bottom: 40px;
+}
+
+
+/*-- Footer --*/
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #e84610;
+}
+
+#footer-details {
+    padding: 20px;
+}
