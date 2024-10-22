@@ -43,7 +43,7 @@ h5 {
     z-index: 1;
 }
 
-.navbar .navbar-brand {
+.navbar  {
     color: #403278;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -59,7 +59,11 @@ h5 {
 .hidden-heading {
     display: none;
   }
-
+.navbar li:hover {
+    background-color: #9e90ec;
+    color: #350da5;
+  }
+  
 
 /*-- Hero, Jumbotron-- */
 .hero-container {
@@ -137,8 +141,7 @@ h2 {
    
   }
  
-
-  /*-- features --*/
+/*-- Three R's os safeguarding earth or features container --*/
 
 .feature i {
     margin-bottom: 20px;
