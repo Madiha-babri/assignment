@@ -60,6 +60,9 @@ h5 {
     color: #5f7dae;
     z-index: 3;
 }
+.hidden-heading {
+    display: none;
+  }
 
 
 /*-- Hero, Jumbotron-- */
@@ -96,3 +99,17 @@ h5 {
 
 /*-- video --*/
 
+.action-container {
+    background: url("../css/images/earthways.jpg");
+    height: 500px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  
+  }
+  
