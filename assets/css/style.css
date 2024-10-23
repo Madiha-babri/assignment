@@ -12,6 +12,7 @@ body {
     background-color: rgba(73, 196, 221, 0.925);
 }
 
+
 h1,
 h3,
 h4,
@@ -88,7 +89,7 @@ h5 {
 
 .text {
     font-size: large;
-    font-weight: 700;
+    font-weight: 900;
 }
 
 #main-header {
