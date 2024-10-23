@@ -98,30 +98,13 @@ h5 {
 }
 
 /*-- video --*/ 
-.video { height: 500px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-  
-
-}
-
-
-
 
 /*-- Actions --*/
 #action-container {
-
     background: url("../images/earthways.jpg") no-repeat center/cover;
-    display: flex;
     flex-wrap: wrap;
-    margin-bottom: 20px;
-   
+    margin-bottom: 10px;
+    width: 100%;
 }
 h2 {
     font-size: 2.5rem;
@@ -152,31 +135,14 @@ h2 {
   }
  
 /*-- Three R's os safeguarding earth or features container --*/
-
-.feature i {
-    margin-bottom: 20px;
-    font-size: 45px;
-    line-height: 45px;
+.card {
+    background: rgb(71, 114, 7);
 }
-
-.feature {
-    background-color: white;
-    border-color: white;
-    border-radius: 15px;
-    min-width: 100px;
-    font-weight: bold;
-    margin-top: 10px;
-    color: #f05f40;
- text-align: center;
-    margin-bottom: 40px;
-}
-
 
 /*-- Footer --*/
-
 footer {
-    background-color: #525252;
-    color: #fafafa;
+    background-color: #5A9DE0;
+    color: black;
     min-height: 120px;
     margin: 0;
 }
@@ -189,11 +155,11 @@ footer {
     height: 32px;
     padding: 12px 0;
     border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
+    font-size: 20px;
+    line-height: 8px;
     text-align: center;
     color: #fafafa;
-    background: #8f8f8f;
+    background: #56f598b0;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -201,9 +167,13 @@ footer {
 }
 
 .social-links li a i:hover {
-    background: #e84610;
+    background: #350da5;
 }
-
+.join-button {
+    background-color: rgba(71, 114, 7, 0.6);
+    color: #fafafa;
+    padding: 10px;
+}
 #footer-details {
     padding: 20px;
 }
