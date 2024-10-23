@@ -1,6 +1,9 @@
 # Safeguarding Earth
 Safeguarding is my first assessed portfolio project developed as part of the Code Institute Full Stack Software Developer Bootcamp, consisting of learning outcomes to utilise HTML5, CSS3 & Bootstrap in order to fulfil the necessary requirements for the brief provided about safeguarding.
 
+<img src="assets/images/main.png">
+
+
 The live project can found here: <a href="https://madiha-babri.github.io/assignment/" rel="nofollow">Safeguarding Earth</a>
 # Purpose 
 Safeguarding Earth is a fictional organisation dedicated to the support of saving life on Earth. The page developed as part of this project documents the organisation's safeguarding policies and practices whilst offering information about actions needed to save earth, support and contact  number.
@@ -31,42 +34,59 @@ As with color, font was a big consideration for ensuring a positive user experie
 Two sans-serif fonts were selected for the project, and implemented via Google Fonts using a direct import code within the style.css file.
 
 <a href="https://fonts.google.com/specimen/Roboto" rel="nofollow">Roboto</a> was proven to be the best choice for the creation of this project.
+
 Different sizes ranging from 100 till 700 were used.
 ## Imagery
 The image selection became a key influence in the design of the overall project, including naming and branding.
 #### Hero section
-Image for hero section was selected after careful consideration. It represents the deep colors of Earth fading away that needs to be safeguarded. 
+Image for hero section was selected after careful consideration. It represents the deep colors of Earth fading away that needs to be safeguarded.
+<img src="assets/images/hero.png">
+
 #### Video Container
 This part was selected to show a video of ocean, to appeal users attention towards the fact that oceans need to be saved to save water, relatively saving Earth.
+
+<img src="assets/images/video.png">
 
 #### Action Container
 Here I used background picture of green earth ball to appeal users attention towards 10 actions that can safeguard Earth.
 
+<img src="assets/images/reasons.png">
+
 ##### Cards section
 Here the image of recycling hand is used to appeal users towards need of using three important R's of safeguarding Earth.
+
+<img src="assets/images/R.png">
+
 ## Features
 #### General Features
 In order to fulfil the criteria the page consists of various sectioned information each with a variety of links, resources and other elements that contribute to a positive user experience.
 <a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/">Bootstrap Framework</a> was used for general styling and designing. 
+
  ###### Navigation and Hero Section
  I chose to use a bold and welcoming hero section for the start of the page using the Bootstrap Jumbotron.
 
 This gives a clear indication of the content as well as imagery that links to the brand and identity of the organisation.
 
 Within this section I have included two buttons that present easy to navigate options for the user to access the relevant section of the page for their needs.
+
+<img src="assets/images/navbar.png">
+
 ###### Bootstrap Cards
 I utilise the bootstrap cards option to describe three R's (recycle, reuse, reduce) of safeguarding Earth.
 
-#####Footer
+##### Footer
 For the footer again I implemented a Bootstrap component.
 
+<img src="assets/images/footer.png">
+
 Here I have used the bold contrast of the blue shades to distinguish it apart from the rest of the page allowing it to be easily identifiable across the whole website.
-#####Responsive Design
+
+##### Responsive Design
 Utilising the Bootstrap Framework allowed for an implementation that is responsive without the need for additional CSS or media queries.
 
 Though it took some experimentation and troubleshooting, I have been able to create a page that is fully responsive to modern standards.
 
-##Technologies Used
+## Technologies Used
 #### Languages Used
 + HTML5
 + CSS3
