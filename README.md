@@ -28,6 +28,8 @@ Color selection is a key component to any design process, Safeguarding the plane
 
 So, keeping in mind the combination of blue and green, theme of the website was set accordingly. I was able to determine an appropriate color scheme that is aesthetically pleasing whilst being both calming and engaging.
 
+<img src="assets/images/20241023_132450.jpg">
+
 ## Fonts
 
 As with color, font was a big consideration for ensuring a positive user experience whilst visiting the page.
